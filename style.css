@@ -1,3 +1,4 @@
+/* Ustawienia globalne */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #ff758c, #ff7eb3);
@@ -7,12 +8,15 @@ body {
     padding: 0;
 }
 
+/* Nagłówek */
 header {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
+/* Nawigacja */
 nav {
     background: rgba(255, 255, 255, 0.3);
     padding: 15px;
@@ -26,6 +30,7 @@ nav a {
     padding: 10px 20px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
@@ -33,6 +38,7 @@ nav a:hover {
     color: #ff758c;
 }
 
+/* Główna zawartość */
 main {
     padding: 20px;
 }
@@ -41,16 +47,36 @@ section {
     margin-top: 30px;
 }
 
+/* Tytuły */
 h1 {
     font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+h2 {
+    font-size: 2em;
+}
+
+/* Tekst */
 p {
     font-size: 1.2em;
+    line-height: 1.6;
 }
 
+/* Obrazek Sasuke */
+.sasuke-img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+}
+
+/* Stopka */
 footer {
     margin-top: 30px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
 }
