@@ -7,9 +7,38 @@ body {
     padding: 0;
 }
 
-.container {
-    margin-top: 50px;
+header {
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px;
+    font-size: 1.5em;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav a:hover {
+    background: white;
+    color: #ff758c;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-top: 30px;
 }
 
 h1 {
@@ -20,18 +49,8 @@ p {
     font-size: 1.2em;
 }
 
-nav a, a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    background: white;
-    color: #ff758c;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 20px;
-}
-
-nav a:hover, a:hover {
-    background: #ff5a8c;
-    color: white;
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
 }
